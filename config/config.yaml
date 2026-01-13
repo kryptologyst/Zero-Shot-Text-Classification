@@ -1,0 +1,10 @@
+model_name: "facebook/bart-large-mnli"
+device: "auto"
+use_fp16: false
+confidence_threshold: 0.5
+hypothesis_template: "This text is about {}."
+batch_size: 32
+max_length: 512
+logging_level: "INFO"
+output_dir: "outputs"
+cache_dir: "cache"
